@@ -6,6 +6,8 @@
 #include <string>;
 
 using namespace std;
+fstream ReadTXT;
+
 int Avto(int r) {
     setlocale(LC_ALL, "Russian");
     fstream ReadTXT;
@@ -17,25 +19,450 @@ int Avto(int r) {
     cout << "Код: "; cin >> code; cout << endl;
 
     cout << "_________________________________________________________________________________________\n" << endl;
-    if (code == 101) {
-        std::ifstream in("Files_1/Avto_101.txt"); // открываем файл для чтения
-        if (in.is_open()) {
-            while (getline(in, line)) {
-                std::cout << line << std::endl;
+    if (code > 100 and code < 200) {
+        if (code == 101) {
+            std::ifstream in("Files_1/Avto_101.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 102) {
+            std::ifstream in("Files_1/Avto_102.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 103) {
+            std::ifstream in("Files_1/Avto_103.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 104) {
+            std::ifstream in("Files_1/Avto_104.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 105) {
+            std::ifstream in("Files_1/Avto_105.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 106) {
+            std::ifstream in("Files_1/Avto_106.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 107) {
+            std::ifstream in("Files_1/Avto_107.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 108) {
+            std::ifstream in("Files_1/Avto_108.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 109) {
+            std::ifstream in("Files_1/Avto_109.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 110) {
+            std::ifstream in("Files_1/Avto_110.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            else std::cout << "Произошла ошибка" << std::endl;
+            in.close();     // закрываем файл
+        }
+        if (code == 111) {
+            std::ifstream in("Files_1/Avto_111.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 112) {
+            std::ifstream in("Files_1/Avto_112.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 113) {
+            std::ifstream in("Files_1/Avto_113.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 114) {
+            std::ifstream in("Files_1/Avto_114.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 115) {
+            std::ifstream in("Files_1/Avto_115.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 116) {
+            std::ifstream in("Files_1/Avto_116.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 117) {
+            std::ifstream in("Files_1/Avto_117.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 118) {
+            std::ifstream in("Files_1/Avto_118.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
             }
         }
-        in.close();     // закрываем файл
+        if (code == 119) {
+            std::ifstream in("Files_1/Avto_119.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 120) {
+            std::ifstream in("Files_1/Avto_120.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 121) {
+            std::ifstream in("Files_1/Avto_121.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 122) {
+            std::ifstream in("Files_1/Avto_122.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 123) {
+            std::ifstream in("Files_1/Avto_123.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 124) {
+            std::ifstream in("Files_1/Avto_124.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 125) {
+            std::ifstream in("Files_1/Avto_125.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 126) {
+            std::ifstream in("Files_1/Avto_126.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 127) {
+            std::ifstream in("Files_1/Avto_127.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 128) {
+            std::ifstream in("Files_1/Avto_128.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 129) {
+            std::ifstream in("Files_1/Avto_129.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 130) {
+            std::ifstream in("Files_1/Avto_130.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code > 130) {
+            cout << " Приносим свои извинения. \n Информация по этому автомобилю находится на доработке или еще не добавлена. " << endl;
+        }
     }
+
+    if (code > 200 and code < 300) {
+        if (code == 201) {
+            std::ifstream in("Files_2/Avto_201.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 202) {
+            std::ifstream in("Files_2/Avto_202.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 203) {
+            std::ifstream in("Files_2/Avto_203.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 204) {
+            std::ifstream in("Files_2/Avto_204.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 205) {
+            std::ifstream in("Files_2/Avto_205.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 206) {
+            std::ifstream in("Files_2/Avto_206.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 207) {
+            std::ifstream in("Files_2/Avto_207.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 208) {
+            std::ifstream in("Files_2/Avto_208.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 209) {
+            std::ifstream in("Files_2/Avto_209.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 210) {
+            std::ifstream in("Files_2/Avto_210.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            else std::cout << "Произошла ошибка" << std::endl;
+            in.close();     // закрываем файл
+        }
+        if (code == 211) {
+            std::ifstream in("Files_2/Avto_211.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 212) {
+            std::ifstream in("Files_2/Avto_212.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 213) {
+            std::ifstream in("Files_2/Avto_213.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 214) {
+            std::ifstream in("Files_2/Avto_214.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 215) {
+            std::ifstream in("Files_2/Avto_215.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code == 216) {
+            std::ifstream in("Files_2/Avto_216.txt"); // открываем файл для чтения
+            if (in.is_open()) {
+                while (getline(in, line)) {
+                    std::cout << line << std::endl;
+                }
+            }
+            in.close();     // закрываем файл
+        }
+        if (code > 216) {
+            cout << " Приносим свои извинения. \n Информация по этому автомобилю находится на доработке или еще не добавлена. " << endl;
+        }
+    }
+
+
+    if (code > 300) {
+        cout << " Приносим свои извинения. \n Информация по этому автомобилю находится на доработке или еще не добавлена. " << endl;
+    }
+
     cout << "_________________________________________________________________________________________\n" << endl;
     return 1;
 
 }
 
 int Carina() {
-    int otvet, num, kn, p, sim, v, k, pr, kr, tf, vm, ras, tk, rt, ml;
+    int otvet, num, kn, p, sim, v, k;
 
-    //БЛОК 1. Пользователю предлагается выбрать свой бюджет. На консоли выводятся варианты бюджета.
-        //Пользователю необходимо выбрать номер варианта, в соответствии с его бюджетом.
+    int pr, kr, tf, vm, ras, tk, rt, ml;
+
+    //БЛОК 1. Пользователю предлагается выбрать свой бюджет. На консоли выводится варианты бюджета.
+        //Пользователю необходимо выбрать номер варианта, в соответствие с его бюджетом.
     cout << " Определите Ваш бюджет: " << endl;
     cout << " Нажмите 1, если бюджет низкий. " << endl;
     cout << " Нажмите 2, если бюджет средний. " << endl;
@@ -67,6 +494,7 @@ int Carina() {
                     cout << " Hyundai Elantra 1.6 D-CVVT (97 кВт/132 л.с.) АКПП Optima    | | Код автомобиля: 101" << endl;
                     cout << " Ford Focus Sedan 2.0 (110 кВт/150 л.с.) АКПП Titanium       | | Код автомобиля: 102" << endl;
                     cout << " Honda Civic 4D 1.8 i-VTEC (104 кВт/142 л.с.) АКПП Lifestyle | | Код автомобиля: 103\n" << endl;
+
                 }
 
                 if (kr == 2) {// Седан, механика
@@ -74,7 +502,9 @@ int Carina() {
                     cout << " Chevrolet Cruze Sedan 1.8 (104 кВт/141 л.с.) МКПП LT | | Код автомобиля: 104" << endl;
                     cout << " Chery M11 Sedan 1.6 (88 кВт/119 л.с.) МКПП Luxury    | | Код автомобиля: 105" << endl;
                     cout << " Chevrolet Cruze Sedan 1.6 (80 кВт/109 л.с.) МКПП LS  | | Код автомобиля: 106\n" << endl;
+
                 }
+
             }
 
             // пользователь выбрал вариант 2. Внедорожник
@@ -92,6 +522,7 @@ int Carina() {
                         cout << " Great Wall Hover H6 2.4 (108 кВт/148 л.с.) 4x2 АКПП Standard | | Код автомобиля: 107" << endl;
                         cout << " Nissan Juke 1.6 (86 кВт/117 л.с.) 4x2 CVT XE                 | | Код автомобиля: 108" << endl;
                         cout << " Renault Duster 2.0 (99 кВт/135 л.с.) 4x2 АКПП Expression     | | Код автомобиля: 109\n" << endl;
+
                     }
 
                     if (kr == 2) {// Внедорожник, привод передний, механика
@@ -99,6 +530,7 @@ int Carina() {
                         cout << " KIA Sportage 2.0 (110 кВт/150 л.с.) МКПП 4x2 Classic      | | Код автомобиля: 110" << endl;
                         cout << " Chery Tiggo 1.6 (88 кВт/119 л.с.) 4x2 МКПП Luxury         | | Код автомобиля: 111" << endl;
                         cout << " Mitsubishi ASX 1.6 MIVEC (86 кВт/117л.с.) МКПП 4x2 Invite | | Код автомобиля: 112\n" << endl;
+
                     }
                 }
 
@@ -111,14 +543,17 @@ int Carina() {
                         cout << " Наша система предлагает Вам следующие варианты для выбора автомобиля: " << endl << endl;
                         cout << " Great Wall Hover H5 2.0 TDI (110 кВт/150 л.с.) 4x4 АКПП Luxe | | Код автомобиля: 113" << endl;
                         cout << " ТагАЗ Road Partner 3.2 (162 кВт/220 л.с.) 4x4 АКПП АТ3       | | Код автомобиля: 114\n" << endl;
+
                     }
 
                     if (kr == 2) {// Внедорожник, привод полный, механика
                         cout << " Наша система предлагает Вам следующие варианты для выбора автомобиля: " << endl << endl;
                         cout << " GM-АвтоВАЗ Chevrolet Niva 1.7 (58.5 кВт/80 л.с.) МКПП 4x4 GLS  | | Код автомобиля: 115" << endl;
                         cout << " Great Wall Hover H5 2.0 TDI (110 кВт/150 л.с.) 4x4 МКПП Luxe   | | Код автомобиля: 116\n" << endl;
+
                     }
                 }
+
             }
 
             // пользователь выбрал вариант 3. Хэтчбек
@@ -142,6 +577,7 @@ int Carina() {
                         cout << " Наша система предлагает Вам следующие варианты для выбора автомобиля: " << endl << endl;
                         cout << " Chevrolet Cruze Hatchback 1.6 (80 кВт/109 л.с.) МКПП LS  | | Код автомобиля: 119" << endl;
                         cout << " Audi A1 1.2 TFSI (63 кВт/86 л.с.) МКПП Attraction        | | Код автомобиля: 120\n" << endl;
+
                     }
                 }
 
@@ -154,16 +590,19 @@ int Carina() {
                         cout << " Наша система предлагает Вам следующие варианты для выбора автомобиля: " << endl << endl;
                         cout << " BMW 1 3D [116i] 1.6 (85 кВт/115 л.с.) 4x2 АКПП  | | Код автомобиля: 121" << endl;
                         cout << " Suzuki SX4 1.6 VVT(82 кВт/112 л.с.) АКПП 4x4 GL | | Код автомобиля: 122\n" << endl;
+
                     }
 
                     if (kr == 2) {// Хэтчбек, привод не имеет значения, механика
                         cout << " Наша система предлагает Вам следующие варианты для выбора автомобиля: " << endl << endl;
                         cout << " BMW 1 3D [116i] 1.6 (85 кВт/115 л.с.) 4x2 МКПП   | | Код автомобиля: 123" << endl;
                         cout << " Suzuki SX4 1.6 VVT(82 кВт/112 л.с.) МКПП 4x4 GL  | | Код автомобиля: 124\n" << endl;
+
                     }
                 }
 
             }
+
         }
 
         if (num == 2) { // пользователь выбрал вариант 1 "бюджет низкий",
@@ -420,7 +859,6 @@ int main() {
 
     }
 }
-
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu

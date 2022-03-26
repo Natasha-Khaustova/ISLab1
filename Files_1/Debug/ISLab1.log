@@ -1,0 +1,13 @@
+﻿  ISLab1.cpp
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(460,36): warning C4101: 'k': unreferenced local variable
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(460,33): warning C4101: 'v': unreferenced local variable
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(460,21): warning C4101: 'kn': unreferenced local variable
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(462,25): warning C4101: 'ras': unreferenced local variable
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(460,25): warning C4101: 'p': unreferenced local variable
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(462,21): warning C4101: 'vm': unreferenced local variable
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(460,28): warning C4101: 'sim': unreferenced local variable
+C:\Users\User\Desktop\ИС лабы\ISLab1\ISLab1\ISLab1.cpp(826,13): warning C4101: 'k': unreferenced local variable
+  ISLab1.vcxproj -> C:\Users\User\Desktop\ИС лабы\ISLab1\Debug\ISLab1.exe
